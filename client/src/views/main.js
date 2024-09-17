@@ -188,7 +188,7 @@ export default function Main(){
                     <p className="question">Why am I getting an alert message when trying to get a music video?</p>
                     <p className="answer">Your song may not have a music video or you may have hit the 100 song limit per day for accessing Youtube.</p>
                     <p className="question">Am I able to authorize a different account?</p>
-                    <p className="answer">Close the window and open again.</p>
+                    <p className="answer">Clear your browser's cache.</p>
                     <p className="question">Why does the music video get cut off?</p>
                     <p className="answer">Occasionally the Spotify song and Youtube MV will be different lengths, so the Spotify song might end early.</p>
                 </div>
