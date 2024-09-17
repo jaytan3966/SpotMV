@@ -1,0 +1,29 @@
+.navbar{
+    max-width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    color: white;
+    height: 3vh;
+    z-index: 1000;
+    padding: 26px 20px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    box-shadow: 0 6px 14px #00000029;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.center{
+    margin: 0 auto;
+}
+.userProf{
+    display: flex;
+    align-items: center;
+}
+.userImg{
+    border-radius: 20px;
+    height: 30%;
+    width: 30%;
+    margin: auto;
+}
