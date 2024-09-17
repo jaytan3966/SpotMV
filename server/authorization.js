@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors');
 app.use(express.json());
 app.use(cors());
-
+const port = process.env.PORT;
 
 const querystring = require('querystring');
 const request = require('request');
@@ -94,6 +94,6 @@ app.get('/refresh_token/:refreshToken', function(req, res) {
     });
   });
 
-app.listen(3001, () => {
-    console.log('Server is running on 3001');
+app.listen(port, () => {
+    console.log(`Server is running on ${port}`);
   });
