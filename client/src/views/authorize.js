@@ -2,7 +2,7 @@ import React from "react";
 import './main.css';
 
 export default function Authorize(){
-    const api_url = 'http://localhost:3001'
+    const api_url = 'https://spotmvserver.onrender.com'
 
     function userAuthorize(){
         window.location.href = `${api_url}/auth`;

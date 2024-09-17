@@ -34,9 +34,11 @@ export default function Main(){
     //navigation
     const navigate = useNavigate();
 
+    const api_url = "https://spotmvserver.onrender.com";
+
     const getRefreshToken = async () => {
         try {
-            const result = await fetch(`http://localhost:3001/refresh_token/${refreshToken}`);
+            const result = await fetch(`${api_url}/refresh_token/${refreshToken}`);
             if (!result.ok){
                 throw new Error(`Network response was not ok: ${result.statusText}`);
             }
