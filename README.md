@@ -7,7 +7,8 @@ SpotMV is a web application that allows users to watch the music videos of their
 
 ## Usage:
 * **Authorization**: Users with permission to use SpotMV can authorize their Spotify accounts to be able to fully utilize SpotMV's capabilities.
-* **HomePage**: Watch users' currently playing song on Spotify's respective music video.
+* **Homepage**: Watch users' currently playing song on Spotify's respective music video.
+* **Refresh Token**: Users are able to refresh their Spotify tokens when they expire (every hour).
 
 Watch SpotMV in action [here](https://github.com/user-attachments/assets/a77bf62b-7780-4bde-a2e5-4e44fb8f217d)!
 
