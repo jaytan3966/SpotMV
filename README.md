@@ -1,5 +1,5 @@
 # SpotMV
-SpotMV is a web application that allows users to watch the music videos of their favorite song being played in their Spotify player. This application is built using React on the client side and Express.js and Node.js on the server side, utilizing the Spotify and Youtube APIs. The application is deployed via Render.
+SpotMV is a web application that allows users to watch the music videos of their favorite song being played in their Spotify player. This application is built using React on the client side and Express.js and Node.js on the server side, as well as utilizing the Spotify and Youtube APIs. The application is deployed via Render.
 
 ## Features:
 * **Authentication**: Users must have permission to authorize their Spotify account. After permission has been granted, users will have the option to authorize their Spotify account and begin using the application.
