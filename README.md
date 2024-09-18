@@ -10,9 +10,10 @@ SpotMV is a web application that allows users to watch the music videos of their
 * **Homepage**: Watch users' currently playing song on Spotify's respective music video.
 * **Refresh Token**: Users are able to refresh their Spotify tokens when they expire (every hour).
 
-Watch SpotMV in action [here](https://github.com/user-attachments/assets/a77bf62b-7780-4bde-a2e5-4e44fb8f217d)!
+Try it out [here](http://spotmv.onrender.com)!
 
-Thank you for your interest in [SpotMV](http://spotmv.onrender.com). 
+## Important Notice
+SpotMV's server may take up to a minute to load on start, so please be patient and wait for the server to start after clicking the authorize button.
 
 \-Jayden Tan, 2024
 
