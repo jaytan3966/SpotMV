@@ -88,7 +88,6 @@ export default function Main(){
                     }
                 } else {
                     setSong("Play a song in Spotify!");
-                    getUserInfo();
                     setImg("https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png")
                     setAlbumLink();
                 }
